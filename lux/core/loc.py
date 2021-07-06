@@ -16,7 +16,7 @@ class LuxLocIndexer(pd.core.indexing._LocIndexer):
         '''
         This function is called for example df.loc[row, col] or df.loc[row]
         where both the row and column index could be 
-        a row index/coluumn name, a list, and a slice object.
+        a row index/column name, a list, and a slice object.
         Possible examples are listed as follows:
             df.loc["cobra", "shield"], df.loc[["cobra"], ["shield"]], 
             df.loc[["cobra"], :], df.loc[["cobra"],], 
